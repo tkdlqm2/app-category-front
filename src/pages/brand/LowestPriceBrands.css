@@ -1,0 +1,53 @@
+.lowest-price-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.brand-table th, .brand-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.brand-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.category-icon {
+    margin-right: 10px;
+}
+
+.category-price, .total-price {
+    text-align: right;
+}
+
+.last-row td {
+    border-bottom: 2px solid #000;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+.total-row td {
+    background-color: #e6f3ff;
+}
+
+.error-message, .loading {
+    text-align: center;
+    color: #ff0000;
+    margin-top: 20px;
+}

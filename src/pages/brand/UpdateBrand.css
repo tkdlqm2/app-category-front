@@ -1,0 +1,50 @@
+.brand-list {
+    width: 30%; /* 전체 너비의 30%로 줄임 */
+    max-width: 300px; /* 최대 너비를 300px로 제한 */
+    margin-right: 20px; /* 오른쪽 여백 추가 */
+}
+
+.brand-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brand-list li {
+    margin-bottom: 8px; /* 버튼 사이 간격 줄임 */
+}
+
+.brand-list button {
+    width: 100%;
+    padding: 10px; /* 패딩 줄임 */
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px; /* 모서리 둥글기 줄임 */
+    cursor: pointer;
+    font-size: 14px; /* 글자 크기 줄임 */
+    text-align: center;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.brand-list button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* 브랜드 정보 수정 폼 스타일 조정 */
+.brand-edit-form {
+    width: 65%; /* 너비 증가 */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 컨테이너 스타일 조정 */
+.update-brand-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1000px; /* 최대 너비 설정 */
+    margin: 0 auto; /* 중앙 정렬 */
+}
