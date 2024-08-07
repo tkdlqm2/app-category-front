@@ -69,7 +69,7 @@ const CreateBrand = () => {
                     >
                         <option value="">선택하세요</option>
                         <option value="SALE">SALE</option>
-                        <option value="STOP">STOP</option>
+                        <option value="UNSALE">UNSALE</option>
                     </select>
                 </div>
                 <div style={{ marginBottom: '10px' }}>

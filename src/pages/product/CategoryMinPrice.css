@@ -1,0 +1,39 @@
+.category-min-price-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.category-table th,
+.category-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.total-price {
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.loading,
+.error {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.error {
+    color: red;
+}

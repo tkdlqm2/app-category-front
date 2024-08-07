@@ -10,7 +10,14 @@ export const createProduct = async (productData) => {
         throw error;
     }
 };
-
+export const getCategoryList = async () => {
+    try {
+        const response = await axios.get(`${API_BASE_URL}/product/category/list`);
+        return response.data;
+    } catch (error) {
+        throw error;
+    }
+};
 export const updateProduct = async (productId, productData) => {
     try {
         const response = await axios.put(`${API_BASE_URL}/update`, {

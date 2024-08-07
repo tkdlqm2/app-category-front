@@ -1,0 +1,40 @@
+.category-price-range-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category-select {
+    margin-bottom: 20px;
+}
+
+.category-select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.price-range-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.price-range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowest-price, .highest-price {
+    flex: 1;
+}
+
+.loading, .error {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.error {
+    color: red;
+}

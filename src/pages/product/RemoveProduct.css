@@ -1,0 +1,67 @@
+.remove-product-container {
+    padding: 20px;
+}
+
+.main-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.brand-section, .product-section {
+    margin-bottom: 30px;
+}
+
+.brand-table, .product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.brand-table th, .product-table th,
+.brand-table td, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.brand-table th, .product-table th {
+    background-color: #f2f2f2;
+}
+
+.last-row {
+    border-bottom: 2px solid #ddd;
+}
+
+.category-select {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.remove-button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.loading {
+    font-style: italic;
+    color: #666;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}

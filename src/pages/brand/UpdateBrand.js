@@ -119,7 +119,7 @@ const UpdateBrand = () => {
                                 onChange={handleInputChange}
                             >
                                 <option value="SALE">SALE</option>
-                                <option value="STOP">STOP</option>
+                                <option value="UNSALE">UNSALE</option>
                             </select>
                         </div>
                         <button type="submit">수정</button>
